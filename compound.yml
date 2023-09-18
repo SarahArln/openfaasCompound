@@ -5,5 +5,5 @@ provider:
 functions:
   compound:
     lang: python3
-    handler: ./siemens/openfaasGitTests/compound
+    handler: ./siemens/openfaasCompound/compound
     image: sarahha/compound:latest
