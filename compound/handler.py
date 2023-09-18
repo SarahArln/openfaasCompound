@@ -12,16 +12,16 @@ def handle(req):
         "ip": listener_ip,
         "device": "magician",
         "method": "suck on",
-        "user": "siemens",
-        "pwd": "siemens"
+        "user": "xuwt",
+        "pwd": "123456"
     }
     response1 = requests.get(url=openfaas_ip, data=json.dumps(data))
     data = {
         "ip": listener_ip,
         "device": "magician",
         "method": "suck off",
-        "user": "siemens",
-        "pwd": "siemens"
+        "user": "xuwt",
+        "pwd": "123456"
     }
     response2 = requests.get(url=openfaas_ip, data=json.dumps(data))
 
